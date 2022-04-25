@@ -1,7 +1,7 @@
 #####################################################################################
 #####################################################################################
 ##                                                                                 ##
-##          EEL 6525: Pattern Recognition and Intelligent Systems                  ##
+##          EEL 6825: Pattern Recognition and Intelligent Systems                  ##
 ##                                                                                 ##
 ##     An End-to-End System for Detecting and Recognizing Texts in Natural         ##
 ##                                                                                 ##
