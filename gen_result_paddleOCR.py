@@ -7,7 +7,7 @@ import pandas as pd
 import shutil 
 import zipfile 
 import time
-from PaddleOCR.paddleocr import PaddleOCR,draw_ocr
+from paddleocr import PaddleOCR,draw_ocr
 from PIL import Image
 
 
@@ -71,7 +71,7 @@ def paddle_ocr(image_path):
 		list_of_tuples.append(res_tuple)
 
 	image = Image.open(image_path).convert('RGB')
-	im_show = draw_ocr(image, boxes, txts, scores, font_path=os.path.join(root,'PaddleOCR/doc/fonts/simfang.ttf'))
+	im_show = draw_ocr(image, boxes, txts, scores, font_path=os.path.join(root,'fonts/simfang.ttf'))
 	img_out = Image.fromarray(im_show)
 	dict = {'BBox': boxes, 'Detected Text': txts, 'Confidence Score': scores}
 	csv_out = pd.DataFrame(dict)

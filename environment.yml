@@ -15,6 +15,7 @@ dependencies:
   - wincertstore=0.2
   - pip:
     - astor==0.8.1
+    - attrdict==2.0.1
     - babel==2.9.1
     - bce-python-sdk==0.8.64
     - cachetools==5.0.0
@@ -57,6 +58,7 @@ dependencies:
     - opencv-python-headless==4.5.4.60
     - openpyxl==3.0.9
     - packaging==21.3
+    - paddleocr==2.5
     - paddlepaddle==2.2.2
     - pandas==1.4.2
     - pillow==9.1.0

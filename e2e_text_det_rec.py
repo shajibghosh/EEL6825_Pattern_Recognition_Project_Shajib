@@ -8,7 +8,7 @@ import csv
 import pandas as pd 
 import warnings
 import time 
-from PaddleOCR.paddleocr import PaddleOCR,draw_ocr
+from paddleocr import PaddleOCR,draw_ocr
 warnings.filterwarnings("ignore")
 
 
@@ -73,7 +73,7 @@ def paddle_ocr(img_path):
 	boxes = [line[0] for line in result]
 	txts = [line[1][0] for line in result]
 	scores = [line[1][1] for line in result]
-	im_show = draw_ocr(image, boxes, txts, scores, font_path=os.path.join(parent_dir,'PaddleOCR/doc/fonts/simfang.ttf'))
+	im_show = draw_ocr(image, boxes, txts, scores, font_path=os.path.join(parent_dir,'fonts/simfang.ttf'))
 	img_out = Image.fromarray(im_show)
 	dict = {'BBox': boxes, 'Detected Text': txts, 'Confidence Score': scores}
 	csv_out = pd.DataFrame(dict) 
