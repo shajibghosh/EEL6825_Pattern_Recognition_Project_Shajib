@@ -10,10 +10,7 @@
 #####################################################################################
 #####################################################################################
 
-1. You can also obtain the codes and associated materials by unzipping the 
-'EEL6825_Pattern_Recognition_Project_Shajib.zip' file
-
-2. Included files and folders in 'EEL6825_Pattern_Recognition_Project_Shajib' folder: 
+1. Included files and folders in 'EEL6825_Pattern_Recognition_Project_Shajib' folder: 
 
         -- [CLEval]
         -- [EasyOCR]
@@ -26,7 +23,7 @@
         -- gen_result_paddleOCR.py
         -- README.txt
 
-3. Setting up the working directory and environment:
+2. Setting up the working directory and environment:
 
       -- make sure that the system has anaconda distribution properly installed 
 	-- open the anaconda prompt
