@@ -13,6 +13,7 @@
 1. Included files and folders in 'EEL6825_Pattern_Recognition_Project_Shajib' folder: 
 
         -- [CLEval]
+	-- [fonts]
 	-- [ICDAR2015]
         -- [sample_images]
         -- e2e_text_det_rec.py
