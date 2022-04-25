@@ -10,8 +10,8 @@
 #####################################################################################
 #####################################################################################
 
-1. You can obtain the codes and associated materials by unzipping the 
-'EEL6825_Pattern_Recognition_Project_Shajib.zip' file 
+1. You can also obtain the codes and associated materials by unzipping the 
+'EEL6825_Pattern_Recognition_Project_Shajib.zip' file
 
 2. Included files and folders in 'EEL6825_Pattern_Recognition_Project_Shajib' folder: 
 
