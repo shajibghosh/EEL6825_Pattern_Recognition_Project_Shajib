@@ -13,6 +13,7 @@
 1. Included files and folders in 'EEL6825_Pattern_Recognition_Project_Shajib' folder: 
 
         -- [CLEval]
+	-- [fonts]
 	-- [ICDAR2015]
         -- [sample_images]
         -- e2e_text_det_rec.py
@@ -46,7 +47,7 @@
 		python e2e_text_det_rec.py   
 
 		[in the code, set the image path, e.g., 
-			img_path = os.path.join(parent_dir, 'sample_images/sample-1.jpg') ]
+			img_path = os.path.join(parent_dir, 'sample_images/sample_1.jpg') ]
 
 	-- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
 		run the 'gen_result_easyOCR.py' by writing following command:
