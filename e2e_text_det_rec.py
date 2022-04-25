@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 print("\nPlease choose any of the following 2 methods: \n")
 print("\n1. EasyOCR [Detection: CRAFT, Recognition: CRNN].\n")
-print("\n2. PaddleOCR [Detection:  Differential Binarization (DB), Recognition: CRNN].\n")
+print("\n2. PaddleOCR [Detection:  Differentiable Binarization (DB), Recognition: CRNN].\n")
 
 choice = int(input("\nEnter your choice (1 or 2): \n")) 
 print("\nGenerating Results......\n") 
