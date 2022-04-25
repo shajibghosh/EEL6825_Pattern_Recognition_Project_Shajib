@@ -26,7 +26,7 @@ if not os.path.exists(img_output_dir):
 csv_output_dir = os.path.join(parent_dir, 'csv_results')
 if not os.path.exists(csv_output_dir):
 	os.makedirs(csv_output_dir)
-img_path = os.path.join(parent_dir, 'sample_images/sample-1.jpg')    # Define the path of the sample image file 
+img_path = os.path.join(parent_dir, 'sample_images/sample_1.jpg')    # Define the path of the sample image file 
 base_name =  os.path.basename(img_path)
 if base_name.endswith('.jpg'):
 	sample_name = base_name.split('.jpg')[0]
