@@ -25,14 +25,14 @@
 2. Setting up the working directory and environment:
 
       -- make sure that the system has anaconda distribution properly installed 
-	-- open the anaconda prompt
-	-- set up the working directory by writing the command:
+      -- open the anaconda prompt
+      -- set up the working directory by writing the command:
 		
 		cd [full path to 'EEL6825_Pattern_Recognition_Project_Shajib' folder]
 
 3. Setting up the virtual conda environment:
 
-	-- now set up the virtual conda envirconda onment by writing following command:
+      -- now set up the virtual conda envirconda onment by writing following command:
 
 		conda env create -f environment.yml 
 
@@ -49,12 +49,12 @@
 		[in the code, set the image path, e.g., 
 			img_path = os.path.join(parent_dir, 'sample_images/sample_1.jpg') ]
 
-	-- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
+      -- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
 		run the 'gen_result_easyOCR.py' by writing following command:
 
 		python gen_result_easyOCR.py 
  
-	-- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
+      -- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
 		run the 'gen_result_easyOCR.py' by writing following command:
 
 		python gen_result_paddleOCR.py
