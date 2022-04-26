@@ -55,7 +55,7 @@
 		python gen_result_easyOCR.py 
  
       -- if you want to generate results for ICDAR2015 test dataset using EasyOCR, 
-		run the 'gen_result_easyOCR.py' by writing following command:
+		run the 'gen_result_paddleOCR.py' by writing following command:
 
 		python gen_result_paddleOCR.py
 	
