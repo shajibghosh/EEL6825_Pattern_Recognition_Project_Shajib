@@ -69,7 +69,7 @@
 
 		python script.py -g=gt/gt_IC15.zip -s=result/result_easyOCR_IC15.zip --E2E
 
-	-- if you want to evaluate the performance of EasyOCR framework, write the following command:
+	-- if you want to evaluate the performance of paddleOCR framework, write the following command:
 
 		python script.py -g=gt/gt_IC15.zip -s=result/result_paddleOCR_IC15.zip --E2E
 
