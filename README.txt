@@ -32,7 +32,7 @@
 
 3. Setting up the virtual conda environment:
 
-      -- now set up the virtual conda envirconda onment by writing following command:
+      -- now set up the virtual conda environment by writing following command:
 
 		conda env create -f environment.yml 
 
