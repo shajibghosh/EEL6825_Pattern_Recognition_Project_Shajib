@@ -73,6 +73,16 @@
 
 		python script.py -g=gt/gt_IC15.zip -s=result/result_paddleOCR_IC15.zip --E2E
 
+DEMO:
+
+Please check these YouTube videos for the demonstration of the project:
+
+1. EEL6825 Final Project Presentation - Part 1: 
+https://www.youtube.com/watch?v=Gp-EK7EvzKg
+
+2. EEL6825 Final Project Presentation - Part 2:
+https://www.youtube.com/watch?v=1t_HsJmGv_Q
+
 ACKNOWLEDGEMENTS:
 
 I would like to thank the owners of the following repositories that inspired 
